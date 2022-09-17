@@ -9,11 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableAutoConfiguration //开启自动配置
 public class SpringBootApplication {
 
-    @RequestMapping("/")
-    String home() {
-        return "Hello World!";
-    }
-
     public static void main(String[] args) {
         SpringApplication.run(SpringBootApplication.class, args);
     }
