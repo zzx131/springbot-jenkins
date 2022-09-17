@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@EnableAutoConfiguration //开启自动配置
+@EnableAutoConfiguration
 public class SpringBootApplication {
 
     public static void main(String[] args) {
